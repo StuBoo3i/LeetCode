@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(LeetCode)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(LeetCode main.cpp Hot_Problem_100/Sum_of_two_num.h Hot_Problem_100/Grouping_of_heterotopic_words.h Hot_Problem_100/Longest_continuous_sequence.h Hot_Problem_100/Move_Zero.h Hot_Problem_100/The_container_that_holds_the_most_water.h Hot_Problem_100/Receiving_rainwater.h Hot_Problem_100/Longest_substring_without_duplicate_characters.h Hot_Problem_100/Find_all_letter_ectopic_words_in_the_string.h Hot_Problem_100/Subarray_with_K_as_the_sum.h)
